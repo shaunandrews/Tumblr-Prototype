@@ -1,10 +1,10 @@
 <script>
-	import { goto } from '$app/navigation';
-	import { modalStore } from './modalStore.js';
-	import PremiumDiamond from '$lib/PremiumDiamond.svelte';
-	import GoPremiumButton from '$lib/GoPremiumButton.svelte';
+	import { goto } from "$app/navigation";
+	import { modalStore } from "$lib/modalStore.js";
+	import PremiumDiamond from "$lib/PremiumDiamond.svelte";
+	import GoPremiumButton from "$lib/GoPremiumButton.svelte";
 
-	export let term = 'yearly';
+	export let term = "yearly";
 
 	let monthlyPrice = 6.99;
 	let yearlyPrice = 69.99;
@@ -13,15 +13,14 @@
 
 	function redirectToCheckout() {
 		modalStore.close();
-		goto('/checkout/');
+		goto("/checkout/");
 	}
 </script>
 
 <section>
-	{#if term === 'yearly'}
+	{#if term === "yearly"}
 		<h3>
-			<strike>${monthlyPrice}</strike> <strong>${yearlyPricePerMonth}</strong> / month billed
-			annually for ${yearlyPrice}
+			<strike>${monthlyPrice}</strike> <strong>${yearlyPricePerMonth}</strong> / month billed annually for ${yearlyPrice}
 		</h3>
 	{:else}
 		<h3>
@@ -34,8 +33,7 @@
 		<GoPremiumButton label="Get premium now" size="big" />
 	</div>
 	<p>
-		Subscriptions renew automatically. Taxes may apply. Ad-Free excludes certain promotional
-		content. <a href="/">Learn&nbsp;more</a>
+		Subscriptions renew automatically. Taxes may apply. Ad-Free excludes certain promotional content. <a href="/">Learn&nbsp;more</a>
 	</p>
 </section>
 
