@@ -1,19 +1,19 @@
 <script>
-	import UserMention from '$lib/UserMention.svelte';
-	import BadgeList from '$lib/BadgeList.svelte';
-	import TimeStamp from '$lib/TimeStamp.svelte';
-	import Avatar from './Avatar.svelte';
-	import MoreButton from './MoreButton.svelte';
+	import UserMention from "$lib/UserMention.svelte";
+	import BadgeList from "$lib/BadgeList.svelte";
+	import TimeStamp from "$lib/TimeStamp.svelte";
+	import Avatar from "$lib/Avatar.svelte";
+	import MoreButton from "$lib/MoreButton.svelte";
 
-	export let username = '';
-	export let timestamp = '';
+	export let username = "";
+	export let timestamp = "";
 	export let isReblogged = false;
 	export let isFollowed = false;
 	export let hasBadges = false;
-	let className = '';
+	let className = "";
 
 	if (isReblogged) {
-		className = 'reblogged';
+		className = "reblogged";
 	}
 </script>
 

@@ -1,8 +1,8 @@
 <script>
-	import { Confetti } from 'svelte-confetti';
-	import { modalStore } from '$lib/modalStore';
-    import PremiumDiamond from '$lib/PremiumDiamond.svelte';
-    import PremiumPerksModal from '$lib/PremiumPerksModal.svelte';
+	import { Confetti } from "svelte-confetti";
+	import { modalStore } from "$lib/ModalStore";
+	import PremiumDiamond from "$lib/PremiumDiamond.svelte";
+	import PremiumPerksModal from "$lib/PremiumPerksModal.svelte";
 
 	function openModal() {
 		modalStore.open(PremiumPerksModal);

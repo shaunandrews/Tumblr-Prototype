@@ -1,5 +1,5 @@
 <script>
-	import PremiumTMark from './PremiumTMark.svelte';
+	import PremiumTMark from '$lib/PremiumTMark.svelte';
 </script>
 
 <div class="hero">

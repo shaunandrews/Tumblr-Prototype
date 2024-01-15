@@ -2,7 +2,7 @@
 	import SearchInput from '$lib/SearchInput.svelte';
 	import PremiumBanner from '$lib/PremiumBanner.svelte';
 	import RightRailAd from '$lib/RightRailAd.svelte';
-	import RailEndcap from '../lib/RailEndcap.svelte';
+	import RailEndcap from '$lib/RailEndcap.svelte';
 </script>
 
 <div id="right-rail">
