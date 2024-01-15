@@ -1,14 +1,14 @@
 <script>
-	import { modalStore } from '$lib/modalStore';
-	import { isPremium } from '$lib/PremiumStore.js';
-	import PremiumSpotlights from '$lib/PremiumSpotlights.svelte';
-	import PremiumDiamond from '$lib/PremiumDiamond.svelte';
-	import PremiumTMark from '$lib/PremiumTMark.svelte';
-	import PremiumModal from '$lib/PremiumModal.svelte';
-	import GoPremiumButton from '$lib/GoPremiumButton.svelte';
-	export let type = 'default';
-	export let graphic = 'tmark';
-	export let marginHorizontal = '';
+	import { modalStore } from "$lib/ModalStore";
+	import { isPremium } from "$lib/PremiumStore.js";
+	import PremiumSpotlights from "$lib/PremiumSpotlights.svelte";
+	import PremiumDiamond from "$lib/PremiumDiamond.svelte";
+	import PremiumTMark from "$lib/PremiumTMark.svelte";
+	import PremiumModal from "$lib/PremiumModal.svelte";
+	import GoPremiumButton from "$lib/GoPremiumButton.svelte";
+	export let type = "default";
+	export let graphic = "tmark";
+	export let marginHorizontal = "";
 
 	function openModal() {
 		modalStore.open(PremiumModal);

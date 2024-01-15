@@ -1,6 +1,6 @@
 <!-- src/lib/Modal.svelte -->
 <script>
-	import { modalStore } from "$lib/modalStore.js";
+	import { modalStore } from "$lib/ModalStore.js";
 	import { fade } from "svelte/transition";
 
 	function closeModal() {

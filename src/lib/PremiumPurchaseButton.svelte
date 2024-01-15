@@ -1,6 +1,6 @@
 <script>
 	import { goto } from "$app/navigation";
-	import { modalStore } from "$lib/modalStore.js";
+	import { modalStore } from "$lib/ModalStore.js";
 	import PremiumDiamond from "$lib/PremiumDiamond.svelte";
 	import GoPremiumButton from "$lib/GoPremiumButton.svelte";
 
