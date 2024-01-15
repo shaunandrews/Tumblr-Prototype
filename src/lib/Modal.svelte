@@ -1,7 +1,7 @@
 <!-- src/lib/Modal.svelte -->
 <script>
-	import { modalStore } from './modalStore.js';
-	import { fade } from 'svelte/transition';
+	import { modalStore } from "$lib/modalStore.js";
+	import { fade } from "svelte/transition";
 
 	function closeModal() {
 		modalStore.close();
@@ -58,11 +58,11 @@
 		padding: 10px 15px;
 		border-radius: 10px;
 		color: white;
-		background: rgba(0,0,0,0.5);
+		background: rgba(0, 0, 0, 0.5);
 		transition: all 0.1s ease-in-out;
 	}
 
 	.modal-close:hover {
-		background: rgba(0,0,0,0.75);
+		background: rgba(0, 0, 0, 0.75);
 	}
 </style>
