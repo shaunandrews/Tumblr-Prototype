@@ -3,7 +3,7 @@
 </script>
 
 <div class="hero">
-	<PremiumTMark />
+	<img src="/premium/diamond-tmark-no-sparkle.gif" alt="Tumblr Premium" height="120" />
 	<h2>Everything you never knew you&nbsp;needed.</h2>
 	<p>Get ad-free browsing, early access to new features, monthly Blazes, and&nbsp;more!</p>
 </div>

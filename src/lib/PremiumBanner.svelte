@@ -20,7 +20,8 @@
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
 	<div class="banner {type}" on:click={openModal} style="margin: 0 {marginHorizontal};">
 		<div class="graphic">
-			<PremiumTMark size="small" />
+			<img src="/premium/diamond-tmark-no-sparkle.gif" alt="Tumblr Premium" height="65" />
+			<!-- <PremiumTMark size="small" /> -->
 			<!--
 		{#if graphic === 'diamond'}
 			<PremiumDiamond size="medium" />
